@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Heathly Lifesyles</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../CSS/Lifestyle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	color: #C30;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #C30;
+}
+a:hover {
+	text-decoration: underline;
+	color: #690;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">Tips for Living a Healthy Lifestyle</div>
+  <div class="navigation">
+    <p><a href="../index.html">Home</a></p>
+    <p><a href="../nutrition.html">Nutrition</a></p>
+    <p><a href="../exercise.html">Exercise</a></p>
+    <p><a href="../habits.html">Habits</a></p>
+    <p><a href="../signup.html">Sign Up</a></p>
+  </div>
+  <!-- TemplateBeginEditable name="EditRegion3" -->
+  <div class="content">Insert Content Here</div>
+  <!-- TemplateEndEditable -->
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div class="footer">
+    <p>Web Site Design by:    <br>
+    Carson Kramer </p>
+  </div>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

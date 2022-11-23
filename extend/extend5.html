@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Spry Tabbed Panels</title>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<p><strong>Using Spry Tabbed Panels</strong>
+</p>
+<div id="Tabs1">
+  <ul>
+    <li><a href="#tabs-1">Step 1</a></li>
+    <li><a href="#tabs-2">Step 2</a></li>
+</ul>
+  <div id="tabs-1">
+    <p>Place you insertion point where you want to insert the spry  tabbed panel and then click the Spry Tabbed Panels button on the Insert bar.</p>
+</div>
+  <div id="tabs-2">
+    <p>Rename each tab and insert content within the content area  of each tab. If necessary, use the Property inspector to add additional tabbed  panels</p></div>
+</div>
+<p>Carson Kramer</p>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "utf-8";
+.container {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header {
+	font-family: Tahoma, sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+	color: #030;
+	background-color: #FFC;
+	text-align: center;
+	height: 50px;
+	width: 800px;
+	padding-top: 5px;
+}
+.content {
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	width: 800px;
+	border-bottom: medium double #000;
+}
+.footer {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 10pt;
+	width: 800px;
+	margin-top: 20px;
+}

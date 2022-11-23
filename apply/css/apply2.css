@@ -1,0 +1,25 @@
+@charset "utf-8";
+.container {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header {
+	font-family: Verdana, sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	background-color: #9CC;
+	height: 75px;
+	width: 1000px;
+}
+.content {
+	font-family: Arial, sans-serif;
+	height: 400px;
+	width: 1000px;
+	border: thin solid #000;
+}
+.footer {
+	font-family: "Times New Roman", serif;
+	font-size: 10pt;
+	width: 1000px;
+}

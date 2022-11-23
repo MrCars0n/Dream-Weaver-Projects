@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/apply2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+  <div class="header">My Template Title</div>
+  <!-- TemplateBeginEditable name="EditRegion3" -->
+  <div class="content">Insert Content Here</div>
+  <!-- TemplateEndEditable -->
+  <div class="footer">Carson Kramer</div>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Justin's Lawn Care Service</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../CSS/Lawn.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+   <div class="header"><img src="../Images/lawn_logo.jpg" width="200" height="75" alt="Business logo"/></div>
+  <div class="navigation"><a href="../index.html">Home</a> <a href="../services.html">Services</a> <a href="../landscape.html">Landscape</a> <a href="../prices.html">Prices</a> <a href="../quote.html">Quote</a> <a href="../contact.html">Contact</a></div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <!-- TemplateBeginEditable name="EditRegion3" -->
+  <div class="content">Insert content here</div>
+  <!-- TemplateEndEditable -->
+  <div class="sidebar"><img src="../Images/sidebar_image.jpg" width="175" height="233" alt=""/></div>
+  <div class="footer">Website Design by: Carson Kramer</div>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

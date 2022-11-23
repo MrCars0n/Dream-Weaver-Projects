@@ -1,0 +1,99 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Gallery Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Gallery</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<!-- InstanceEndEditable -->
+<link href="CSS/layout.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	if (screen.width <= 699) {
+	document.location = "../m/index.html";
+	}
+</script>
+<script language="javascript">
+	if((navigator.userAgent.match(/iPhone/i)) ||
+	   (navigator.userAgent.match(/iPod/i))) {
+	location.replace("../m/index.html");
+	}
+</script>
+<style type="text/css">
+a:link {
+	color: #FF9000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF9000;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF9000;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="logo"><a href="index.html"><img src="images/gallery_logo.jpg" width="300" height="75" alt="Business logo"/></a></div>
+  <div class="navigation"><a href="index.html">home</a> <a href="services.html">services</a> <a href="portfolio.html">portfolio</a> <a href="pricing.html">pricing</a> <a href="session.html">session</a> <a href="contact.html">contact</a></div>
+  <div class="image"><!-- InstanceBeginEditable name="imageArea" --><img src="images/portfolio_image.jpg" width="800" height="325" alt="Portfolio family portrait"/><!-- InstanceEndEditable --></div>
+  <!-- InstanceBeginEditable name="EditRegion3" -->
+  <div class="content">
+    <div id="Accordion1">
+      <h3><a href="#">Portrait Photography</a></h3>
+      <div>
+        <p><img src="images/image_portrait.jpg" width="150" height="200" alt=""/></p>
+      </div>
+      <h3><a href="#">Family Photography</a></h3>
+      <div>
+        <p><img src="images/image_family.jpg" width="150" height="200" alt=""/></p>
+      </div>
+      <h3>Baby Photography</h3>
+      <div>
+        <p><img src="images/image_baby.jpg" width="150" height="200" alt=""/><br>
+      </p>
+      </div>
+		</div>
+      <audio autoplay="autoplay" loop>
+		<source src="Audio/portfolio_audio.mp3" type="audio/mp3">
+		<source src="Audio/portfolio_audio.wav" type="audio/wav">
+		<source src="Audio/portfolio_audio.ogg" type="audio/ogg">
+	  </audio>
+      <center><applet code="Fader.class" codebase="Applets/" name="Photography Experience"
+			  alt="Your browser does not support Java" width="500" height="90" hidden="false">
+    <param name="delay" value="20">
+    <param name="stop" value="4000">
+    <param name="fontSize" value="16">
+    <param name="fontName" value="Arial">
+    <param name="text0" value="Click each panel to view out portfolio.">
+    <param name="text1" value="Experience a photography session centered around you.">
+    <param name="text2" value="Let us capture cherished family moments.">
+    <param name="text3" value="contact us today to schedule your session.">
+  </applet></center>
+	</div>
+  <script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+  </script>
+  <!-- InstanceEndEditable -->
+  <div class="footer">
+    <p>Follow Us:<br>
+    <a href="https://www.facebook.com/TheGalleryPortraitAndFamilyPhotography"><img src="images/facebook_image.jpg" width="36" height="36" alt="Facebook icon"/></a> <a href="https://twitter.com/TheGalleryPFP"><img src="images/twitter_image.jpg" width="36" height="36" alt="Twitter icon"/></a></p>
+    <p>&nbsp;</p>
+    <p>Copyright 2014. All Rights Reserved.</p>
+  </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>

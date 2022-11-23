@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Healthy Lifestyle Mobile</title>
+<link href="../jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css">
+<script src="../jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="../jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="home" data-role="page" data-theme="e">
+  <div data-role="header" data-theme="e">
+    <h1>Tips for Living a <br>
+    Healthy Lifestyle</h1>
+  </div>
+  <div data-role="content" data-theme="a">
+    <ul data-role="listview">
+      <li><a href="#nutrition">Nutrition</a></li>
+      <li><a href="#habits">Habits</a></li>
+      <li><a href="#signup">Sign Up</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" data-theme="e">
+    <h4>Carson Kramer</h4>
+  </div>
+</div>
+<div data-role="page" id="nutrition">
+  <div data-role="header">
+    <h1>Nutrition</h1>
+  </div>
+  <div data-role="content">
+    <p>Food and nutrition tips:</p>
+    <ul>
+      <li>Include plenty of fruits, vegetables, and whole grains in  your diet.</li>
+      <li>Prepare food that is low in saturated and trans fat.</li>
+      <li>Choose low-cholesterol foods.</li>
+      <li>Reduce your sodium intake.</li>
+      <li>Control your portions.</li>
+    </ul>
+  </div>
+  <div data-role="footer">
+    <h4><a href="#home" data-role="button">Home</a></h4>
+  </div>
+</div>
+<div data-role="page" id="habits">
+  <div data-role="header">
+    <h1>Habits</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>30-Day Challenge</h3>
+        <p>Challenge yourself to change the habit for the next 30 days.  After 30 days, it is much easier to continue. If you fail the 30-day challenge,  start again and continue until you are successful.</p>
+</div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Commit</h3>
+        <p>You have to commit to the change. Remind yourself of your goal daily. Place encouraging notes around your home to remind you of your goal and commitment. Update your social networking status to reflect your daily goal to help motivate you to stick to it!</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Track Your Progress</h3>
+        <p>Keep a notebook of your progress. Seeing your progress will  only increase your motivation to continue.</p>
+</div>
+    </div>
+  </div>
+  <div data-role="footer">
+    <h4><a href="#home" data-role="button">Home</a></h4>
+  </div>
+</div>
+<div data-role="page" id="signup">
+  <div data-role="header">
+    <h1>Sign Up</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain"><a href="mailto:heathly@company.com" data-role="button" data-icon="star">Sign Up via E-mail</a>
+      <div data-role="fieldcontain"> </div>
+    </div>
+  </div>
+  <div data-role="footer">
+    <h4><a href="#home" data-role="button">Home</a>    <br>
+</h4>
+  </div>
+</div>
+</body>
+</html>
